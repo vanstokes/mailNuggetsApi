@@ -6,7 +6,7 @@
 ##	10.07.2011
 ##	v0.03
 ##	
-##	This class demostrates the MailNuggets API
+##	This class demonstrates the MailNuggets API
 ##	
 ##	MANAGE TEMPORARY EMAIL ADDRESSES
 ##	
