@@ -13,7 +13,7 @@
 ##	Temporary receiving-only email addresses can be 
 ##	created for your MailNuggets account.  These email 
 ##	addresses (also referred to as 'throwaways') send email
-##	to your remote script via a mailnuggets rule.  When you
+##	to your remote script via a MailNuggets rule.  When you
 ##	no longer want that address to send email to your 
 ##	script, you can delete that address with this API.
 ##
