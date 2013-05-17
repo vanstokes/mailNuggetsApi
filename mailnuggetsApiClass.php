@@ -12,19 +12,19 @@
 ##	
 ##	Temporary receiving-only email addresses can be 
 ##	created for your MailNuggets account.  These email 
-##	addresses (also referred to as 'throwaways') send email
+##	addresses (also referred to as 'throwaways') POST email
 ##	to your remote script via a MailNuggets rule.  When you
-##	no longer want that address to send email to your 
+##	no longer want that address to POST email to your 
 ##	script, you can delete that address with this API.
 ##
 ##	GET FEED OF EMAILS FROM LAST 48 HOURS
 ##	
-##	You can access an XML feed of email_id's, and with information
+##	You can access an XML feed of email_id's, and information
 ##	for each email received from the last 48 hours.
 ##	
 ##	REPOST EMAILS
 ##	
-##	You can trigger any email message be rePOSTed to your remote script.
+##	You can trigger any email message be re-POSTed to your remote script.
 ##	For example, if you list a feed of emails over the last 48 hours, and 
 ##	find an email that is not stored in your database, you can trigger it
 ##	to be rePOSTed.
@@ -46,12 +46,12 @@ error_reporting(E_ALL);
 
 if(!function_exists('hash_hmac'))
 	{
-		echo 'Error: You need hash_mac installed with PHP to use the API <br/>';
+		echo 'Error: You need hash_mac installed with PHP to use the API';
 	}
 
 if(!function_exists('curl_init'))
 	{
-		echo 'Error: You need curl installed with PHP to use the API <br/>';
+		echo 'Error: You need curl installed with PHP to use the API';
 	}
 
 class mailNuggets {
