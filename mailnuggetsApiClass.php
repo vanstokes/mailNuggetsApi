@@ -75,6 +75,7 @@ class mailNuggets {
 		{
 		
 		// sign request
+		// hash must use lowercase hexits
 		$signature = hash_hmac('sha256', $url, $this->apiSecretKey);
 		$url .= "&SIGNATURE=$signature";
 
